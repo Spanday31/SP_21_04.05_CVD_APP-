@@ -9,7 +9,7 @@ st.set_page_config(layout="wide", page_title="SMART CVD Risk Reduction")
 col1, col2, col3 = st.columns([1, 6, 1])
 with col3:
     try:
-        st.image("logo.png", width=600, height=600)
+        st.image("logo.png", width=600)
     except FileNotFoundError:
         st.warning("⚠️ logo.png not found; please add it to your repo.")
 
